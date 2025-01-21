@@ -1,0 +1,37 @@
+body {
+    background-color: lavenderblush;
+}
+#p1 {
+    color: rgb(63, 4, 67);
+}
+#p2 {
+    color: rgb(22, 78, 8);
+    font-weight: bold;
+    font-size: 25px;
+    background-color:burlywood;
+}
+#p3 {
+    color:darkblue;
+    font-family: cursive;
+    font-style: italic;
+    text-decoration: underline;
+}
+#pretty {
+    padding: 50vh 10%;
+}
+#s1 {
+    font-weight: bold;
+    color:darkgreen;
+    font-size: 25px;
+}
+#s2 {
+    font-style: italic;
+    letter-spacing: 2px;
+}
+#s3 {
+    background-color:#ffffae;
+}
+#s4 {
+    text-align: right;
+    display: block;
+}
