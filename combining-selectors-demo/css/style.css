@@ -1,0 +1,11 @@
+div#navbar {
+    background-color: blue;
+    text-align: center;
+    padding: 24px;
+}
+div#navbar a {
+    color: white;
+}
+div#navbar > a {
+    color: rgb(255, 14, 207);
+}

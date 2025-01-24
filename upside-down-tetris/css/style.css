@@ -1,55 +1,55 @@
 /*
     NOTE TO STUDENTS: 
 
-    This is the file you should be writing your CSS in 
-    for the Upside-down Tetris assignment.
+        This is the file you should be writing your CSS in 
+        for the Upside-down Tetris assignment.
 
-    Good luck, and have fun!
+        Good luck, and have fun!
 */
-.tetris-block {
-    padding: 20px;
-    border-width: 12px;
-    border-style: outset;
-    display: inline-block;
-}
+        .tetris-block {
+            padding: 20px;
+            border-width: 12px;
+            border-style: outset;
+            display: inline-block;
+        }
 
-.hot-pink {
-    border-color: #f72585;
-    background-color: #f72585;
-}
+        .hot-pink {
+            border-color: #f72585;
+            background-color: #f72585;
+        }
 
-.plum-purple {
-    border-color: #7209b7;
-    background-color: #7209b7;
-    padding: 24px;
-}
+        .plum-purple {
+            border-color: #7209b7;
+            background-color: #7209b7;
+            padding: 24px;
+        }
 
-.navy-blue {
-    border-color: #3a0ca3;
-    background-color: #3a0ca3;
-}
-.lapis-blue {
-    background-color: #4361ee;
-    border-color: #4361ee;
-}
+        .navy-blue {
+            border-color: #3a0ca3;
+            background-color: #3a0ca3;
+        }
+        .lapis-blue {
+            background-color: #4361ee;
+            border-color: #4361ee;
+        }
 
-.sweet-blue {
-    background-color: #4cc9f0;
-    border-color: #4cc9f0;
-}
-.long {
-    padding: 20px 52px;
-}
+        .sweet-blue {
+            background-color: #4cc9f0;
+            border-color: #4cc9f0;
+        }
+        .long {
+            padding: 20px 52px;
+        }
 
-.empty {
-    border-color: transparent;
-    background-color: transparent;
-}
+        .empty {
+            border-color: transparent;
+            background-color: transparent;
+        }
 
-.lemon {
-    border-radius: 5px 50px;
-}
+        .lemon {
+            border-radius: 5px 50px;
+        }
 
-.width {
-    height: 44px;
-}
+        .width {
+            height: 44px;
+        }
