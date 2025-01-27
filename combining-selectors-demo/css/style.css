@@ -4,8 +4,76 @@ div#navbar {
     padding: 24px;
 }
 div#navbar a {
-    color: white;
+    color: rgb(236, 173, 207);
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+    transition: font-size 0.5s, color 2.5s;
 }
 div#navbar > a {
-    color: rgb(255, 14, 207);
+    color: rgb(250, 244, 249);
 }
+div#navbar a{
+    background-color: rgb(19, 36, 109);
+}
+div#navbar a:hover {
+    font-size: 24px;
+    color: orange;
+}
+
+p {
+  font-size: 180x;
+  letter-spacing: 1px;
+  a {
+    color: red;
+    font-weight: bold;
+  }
+}
+
+p.warning a {
+    color: green;
+}
+
+p.warning {
+    color: purple;
+}
+/*
+ lets say a basic HTML element selector has a specificity level of 0-0-0.
+ Each additional basic HTML element will add 0-0-0
+
+  If an ID is incolved, a single ID level is set to 2.
+  So, for each ID involved, that is +2
+
+    If a class is involved, a single class is set to 1.
+    So, for each class, that is +1.
+ */
+    /* This one below is: 0-01 */
+ul {
+    color: green;
+}
+/* This one below is: 0-0-3 */
+ul li a {
+    color: aqua;
+}
+/* This one below is:  1-0-2
+ul#costco a {
+    color: orange;
+}
+    */
+
+/* This one below is: 0-1-2
+ul#costco.walmart li a {
+    color: red;
+}
+    */
+    ul p a {
+        color: rgb(17, 58, 45);
+    }
+    
+    ul div a {
+        color: chartreuse;
+    }
+
+    ul > li a .warning, #cat a > span i {
+         color: pink;
+    }
