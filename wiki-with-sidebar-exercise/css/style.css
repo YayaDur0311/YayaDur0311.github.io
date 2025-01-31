@@ -1,0 +1,47 @@
+#two-columns {
+    display:flex;
+}
+#sidebar {
+    position: abosulte;
+    left: 0;
+    width: 240px;
+    height: 20%;
+    background: #b0c386;
+    font-size: 19px;
+    #contents {
+        text-align: center;
+        border-bottom: 10px solid #378b48
+    }
+    ul a {
+        color: #000000;
+        text-decoration: none;
+    }
+    ul li {
+        padding: 4px 0px;
+    }
+}
+
+
+
+/* Main Area */
+
+h1 {
+    font-size: 40px;
+        border-bottom: 6px solid #132a13;
+        padding: 15px;
+        text-align: center;
+        margin-bottom: 15px;
+        p {
+            font-size: 19px;
+        }
+        
+}
+
+h2 {
+    font-size: 30px;
+        border-bottom: 2px solid #132a13;
+        padding: 15px;
+        text-align: center;
+        margin-bottom: 15px;
+        font-weight: 10;
+}
