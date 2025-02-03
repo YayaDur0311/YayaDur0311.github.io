@@ -3,7 +3,7 @@
 }
 body {
     margin: 0px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: black;
     color: white;
 }
@@ -48,5 +48,5 @@ h1 {
 
 #main {
     grid-area: content;
-   margin: 1px 35px;
+    margin: 1px 35px;
 }
