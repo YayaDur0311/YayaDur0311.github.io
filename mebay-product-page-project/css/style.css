@@ -42,9 +42,6 @@ img {
 nav {
     margin: 20px;
 }
-nav ul {
-    list-style: none;
-}
 nav li {
     border:  5px groove  #b08968;
     padding: 4px 10px;  
