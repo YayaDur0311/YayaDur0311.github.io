@@ -1,0 +1,53 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px auto;
+    font-family: sans-serif;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-style-2 {
+    background: #ffffff;
+    border-radius: 12%;
+    height: -29px;
+    width: -29%;
+}
+
+.card-style-2 img {
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.profile-pic-container {
+    padding: 25px;
+    height: auto;
+    min-height: 50%;
+}
+/*Words section here! */
+p {
+    text-decoration: none;
+    text-align: center;
+}
+.brand-name {
+    margin-right: 16%;
+    font-size: 30px;
+}
+
+.animagram-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+}
