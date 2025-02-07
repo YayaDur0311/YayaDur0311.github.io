@@ -15,16 +15,7 @@
     height: -29px;
     width: -29%;
 }
-.card-style-2 .animagram-header .logo {
-    font-size: 36px;
-    font-family: 'Shadows Into Light';
-    font-weight: bold;
-    display: inline-block;
-    border: 3px solid black;
-    border-radius: 50%;
-    width: 66px;
-    text-align: center;
-}
+
 .card-style-2 img {
     display: flex;
     align-items: center;
@@ -36,7 +27,7 @@
 }
 
 /*Inside Items section here! */
-
+/* cards and image are only ones that need a w and h */
 .card-style-2 .animagram-header .brand-name {
     font-family: 'Acme';
     font-weight: bold;
@@ -46,7 +37,6 @@ p {
     text-align: center;
 }
 span {
-    display: flex;
     font-size: 28px;
     justify-content: center;
     gap: 11px;

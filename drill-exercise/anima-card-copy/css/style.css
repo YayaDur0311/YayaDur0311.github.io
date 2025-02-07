@@ -1,0 +1,31 @@
+/*Focus on the first image
+Once done find a parent or a way so it can connect to the others */
+
+
+#animagram-card-1 {
+    background-color: white;
+    padding: 1px;
+    border-radius: 25px;
+}
+
+.card-container {
+    min-height:  100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-pic-container img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+
+
+
+
+p {
+    text-decoration: none;
+    text-align: center;
+}
