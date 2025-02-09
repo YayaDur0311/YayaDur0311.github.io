@@ -21,13 +21,6 @@ body {
     display: center;
 }
 
-#animagram-card-1 {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex: 1;
-}
 
 .animagram-header {
     display: flex;
