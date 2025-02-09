@@ -1,31 +1,90 @@
-/*Focus on the first image
-Once done find a parent or a way so it can connect to the others */
-
-
-#animagram-card-1 {
-    background-color: white;
-    padding: 1px;
-    border-radius: 25px;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    margin: 34px;
 }
 
 .card-container {
-    min-height:  100vh;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
+    gap: 20px;
+}
+.card-style-2 {
+    background-color: white;
+    border-radius: 15px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    display: center;
+}
+
+#animagram-card-1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.animagram-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.logo {
+    font-size: 19px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+.brand-name {
+    font-size: 25px;
+    color: black;
+}
+
+.profile-pic-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 10px;
 }
 
 .profile-pic-container img {
-    border-radius: 50%;
-    height: 150px;
-    width: 150px;
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
-
-
-
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px auto;
+}
 
 p {
-    text-decoration: none;
-    text-align: center;
+    font-size: 19px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.animagram-footer {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color: #000000;
+}
+
+.animagram-footer span {
+    display: flex;
+    align-items: center;
+}
+
+.animagram-footer i {
+    margin: 9px 10px;
 }
