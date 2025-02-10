@@ -8,87 +8,39 @@
     of the setup.css styling if you do so.
 */
 
-
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f0f0f0;
-    margin: 34px;
-}
-
-.card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
 .card-style-2 {
     background-color: white;
-    border-radius: 15px;
-    width: 300px;
-    padding: 20px;
-    text-align: center;
-    display: center;
+    border-radius: 28px;
+    padding: 24px;
+    width: 350px;
+    margin: 16px;
 }
-
-
-.animagram-header {
+.card-style-2 .animagram-header, 
+.card-style-2 .animagram-footer {
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin-bottom: 15px;
+    justify-content: space-between;
 }
-
-.logo {
-    font-size: 19px;
-    font-weight: bold;
-    margin-right: 40px;
+/* .card-style-2 .animagram-header .logo{
+    margin-right: auto;
+}*/
+.card-style-2 .animagram-header .brand-name{
+    font-size: 28px;
 }
-
-.brand-name {
-    font-size: 25px;
-    color: black;
+.card-style .profile-pic-container {
+    padding: 36px 36px 0px;
+    border-radius: 50%;
 }
-
-.profile-pic-container {
+.card-style-2 h2, .card-style-2 p {
+    text-align: center;
+    padding: 0px 36px;
+}
+.card-style-2 img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    overflow: hidden;
-    margin: 0 auto 10px;
 }
-
-.profile-pic-container img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-h2 {
-    font-size: 20px;
-    font-weight: bold;
-    margin: 0px auto;
-}
-
-p {
-    font-size: 19px;
-    color: #000000;
-    margin-bottom: 20px;
-}
-
-.animagram-footer {
-    display: flex;
-    justify-content: space-around;
-    font-size: 20px;
-    color: #000000;
-}
-
-.animagram-footer span {
-    display: flex;
-    align-items: center;
-}
-
-.animagram-footer i {
-    margin: 9px 10px;
+.card-style-2 .animagram-footer {
+    font-size: 24px;
+    padding-top: 32px;
 }
