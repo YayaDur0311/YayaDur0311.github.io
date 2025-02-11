@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    height: 100vh;
+    background-image: url(../images/Pexels_SunSet\ \(2\).jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#hero-1 h1 {
+    font-size: 100px;
+    color: rgb(255, 222, 160);
+}
+#hero-1 .hero-content{
+    color: #ffeedb;
+    text-align: center;
+    padding-top: 100px;
+}
+#hero-1 h2 {
+    font-size: 72px;
+    margin-bottom: 36px;
+}
+#hero-1 h4 {
+    font-size: 24px;
+    margin: 0px;
+}
+#hero-1 a {
+    font-size: 20px;
+    display: inline-block;
+    background-color: orangered;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 24px;
+    margin-top: 36px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+/*2 HTML AREA */
+#hero-2 {
+    height: 100vh;
+    background-image: url(../images/Pexels_Moon.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+    position: relative;
+}
+#hero-2 h1 {
+    font-size: 100px;
+    color: aliceblue;
+    font-style: italic;
+}
+#hero-2 .hero-content {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+#hero-2 h2 {
+    font-size: 42px;
+    margin-bottom: 36px;
+    color: aliceblue;
+    font-style: italic;
+    margin-left: 99px;
+    margin-right: 50px;
+}
+#hero-2 h4 {
+    font-size: 29px;
+    margin-left: 99px;
+    color: aliceblue;
+    font-style: italic;
+}
+#hero-2 a {
+    font-size: 20px;
+    display: inline-block;
+    background-color: #90e0ef;
+    color: #03045e;
+    text-decoration: none;
+    padding: 24px;
+    margin-top: 95px;
+    margin-right: 19px;
+    margin-left: 19px;
+    border-radius: 90%;
+    font-style: italic;
+}
+/* 3 html area */
+#hero-3 {
+    background-image: url(../images/Pexels_Solar_Eclipse.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+
+
