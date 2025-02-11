@@ -13,14 +13,14 @@ body {
     background-position: center center;
     height: 100vh;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
 #hero-1 h1 {
     font-size: 100px;
     color: rgb(255, 222, 160);
 }
-#hero-1 .hero-content{
+#hero-1 .hero-content {
     color: #ffeedb;
     text-align: center;
     padding-top: 100px;
@@ -104,5 +104,33 @@ body {
     margin-bottom: 100px;
 }
 
+#hero-3 .hero-content3 {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    font-style: italic;
+}
+#hero-3 h2 {
+    font-size: 72px;
+    margin-bottom: 36px;
+}
+#hero-3 h4 {
+    font-size: 25px;
+    margin: 14px;
+    padding: 100px;
+    color: whitesmoke;
+}
 
-
+#hero-3 a {
+    font-size: 14px;
+    display: inline-block;
+    background-color: #d69812;
+    color: rgb(113, 39, 12);
+    text-decoration: none;
+    padding: 24px;
+    font-size: 34px;
+    margin-top: 36px;
+    margin-right: 12px;
+    margin-left: 12px;
+    border-radius: 20px;
+}
