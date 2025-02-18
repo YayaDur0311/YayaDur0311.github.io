@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body#client1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body#client2 {
+    font-family: 'Noto Sans Japanese';
+}
+body#client3 {
+    font-family: monospace;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+button {
+    border: none;
+    background-color: transparent;
+}
+.container {
+    width: 90dvw;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+header {
+    background-color: rgb(106, 159, 106);
+}
+#hammy {
+    display: block;
+    flex-direction: column;
+    gap: 0.4em;
+    cursor: pointer;
+}
+    &:hover span {
+        color: green;
+        &:last-child {
+            transform: scaleX(100%);
+  }
+}
+
+span {
+    background-color: #eee;
+    width: 2rem;
+    transition: color 0.5s, transform 0.5s;
+    height: 0.16rem;
+    border-radius: 2rem;
+}
+&:last-child {
+    transform: scaleX(70%);
+    transform-origin: left;
+}
+#menu {
+    flex-direction: column;
+    padding: 25px;
+    a {
+        color: #111;
+    }
+}
