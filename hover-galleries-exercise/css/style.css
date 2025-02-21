@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Gall 1 */
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.card1 , .card2 , .card3 , .card4  {
+    flex: 300px;
+    border: 3px solid black;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+}
+.card1 a, .card2 a , .card3 a , .card4 a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    border: 3px solid black;
+    padding: 12px;
+    margin-top: 36px;
+}
+/* Card 1 */
+#card-1 .card-content {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px); 
+    transition:
+    opacity 0.5s,
+    visibility 0.5s,
+    transform 0.5s; 
+}
+
+#card-1:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+/* Card 2 */
+#card-2 {
+    transition: background-color 0.5s, 
+    box-shadow 0.5s,
+    transform 0.5s;
+    color: white;
+}
+#card-2:hover {
+    background-color: rgb(0, 115, 255);
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+
+/* Card 3 */
+#card-3 .card-content {
+    transition:
+    opacity 0.5s,
+    visibility 0.5s;
+}
+#card-3:hover .card-content {
+    opacity: 0;
+    visibility: hidden;
+}
+/* Card 4 */
+.card4 {
+    background-color: black;
+}
+.card4:hover {
+    color: white;
+}
+#card-4 .card-content1 a {
+    background-color: black;
+}
+#card-4 .card-content1 a:hover {
+    color: white;
+    transition: 
+    opacity 0.5s, 
+    visibility 0.5s;
+}
+
+

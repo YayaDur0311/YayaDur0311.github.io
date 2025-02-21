@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+body {
+    background: #c4d5f6;
+    color: white;
+}
+/* homescreen */
+header {
+    background-color: #fff3bd;
+    display: flex;
+    justify-content:  flex-end;
+    text-align: center;
+    padding: 30px 10%;
+}
+h2 {
+    text-align: center;
+    font-size: 38px;
+    color: #e78f14;
+    margin-right: auto;
+}
+.container2 {
+    cursor: pointer;
+}
+.container2 li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.container2 li a {
+    transition: all 0.3s ease 0s;
+    display: block;
+    color: rgb(88, 6, 36);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.container2 li a:hover {
+    color: #ff5c8a;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    border-radius: 46px;
+}
+li a:hover {
+    background-color: #d2cb387f;
+}
+
+.wrapper {
+    padding: 10px 10%;
+}
+#card-area {
+    padding: 50px 0;
+}
+.box-area {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+/* Cards doggy */
+.box {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+.box img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.3s;
+}
+
+.overlay {
+    height: 0;
+    width: 100%;
+    background: linear-gradient(transparent,#1c1c1c 58%);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 15px;
+    transition: height 0.4s;
+}
+.box:hover .overlay {
+    height: 100%;
+}
+.overlay h3 {
+    font-weight: 500;
+    margin: 5px;
+    font-family: bebas neue;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.overlay a {
+    margin-top: 10px;
+    color: rgb(98, 0, 255);
+    text-decoration: none;
+    font-size: 14px;
+    background: #fff;
+    border-radius: 50px;
+    text-align: center;
+    padding: 5px 15px;
+}
