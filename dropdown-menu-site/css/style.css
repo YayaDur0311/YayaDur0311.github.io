@@ -68,15 +68,20 @@ body {
     margin-top: 100px;
 }
 .card-container img {
-    margin-right: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .card {
     width: 325px;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
     margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .card a {
     transition: 
@@ -85,10 +90,10 @@ body {
         transform 0.5s;
 }
 .card:hover a {
-    background-color: #690bf7;
+    background-color: #ffa200;
     box-shadow: 4px 4px 4px #00000033;
     transform: translateY(-4px);
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .card img {
     width: 100%;
@@ -151,10 +156,7 @@ p {
 }
 
 /* Meida */
-@media screen and (max-width:  480px) and (min-width: 325px) {
-    body {
-        background-color: red;
-    }
+@media screen and (max-width:  600px) and (min-width: 325px) {
     p {
         font-size: 18px;
         padding: 13px;
@@ -176,7 +178,7 @@ p {
         flex-direction: column;  
     }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     .dropdown-container {
         flex-direction: column;
     }
