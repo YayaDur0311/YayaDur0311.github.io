@@ -4,6 +4,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: #fefae0;
 }
 /* homescreen */
 #navbar {
@@ -15,7 +16,7 @@ body {
     display: inline-block;
     text-decoration: none;
     color: white;
-    padding: 24px;
+    padding: 28px;
 }
 #navbar a:hover {
     background: linear-gradient(to top, #be775e, #f4a261);
@@ -39,10 +40,10 @@ body {
     background-color: #be775e;
     transform: translateY(-16px);
     transition: 
-    opacity 0.5s,
-    visibility  0.5s,
-    transform 1s
-    ;
+        opacity 0.5s,
+        visibility  0.5s,
+        transform 1s
+        ;
 }
 .dropdown-container:hover .dropdown-menu {
     opacity: 1;
@@ -66,6 +67,9 @@ body {
     flex-wrap: wrap;
     margin-top: 100px;
 }
+.card-container img {
+    margin-right: 200px;
+}
 .card {
     width: 325px;
     background-color: #f0f0f0;
@@ -76,9 +80,9 @@ body {
 }
 .card a {
     transition: 
-    background-color 0.5s,
-    box-shadow 0.5s,
-    transform 0.5s;
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
 }
 .card:hover a {
     background-color: #690bf7;
@@ -103,11 +107,77 @@ body {
     line-height: 1.3;
 }
 .card .btn {
-    display: inline-block;
     padding: 8px 16px;
     background-color: #333;
     text-decoration: none;
     border-radius: 4px;
     margin-top: 16px;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Susan */
+img, .cont {
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.cont h1 {
+    color: #8f3819;
+    font-size: 48px;
+}
+
+.container-person {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+p {
+    font-size: 18px;
+}
+.profile-container img {
+    height: 200%;
+    border-radius: 24px;
+}
+.profile-container {
+    height: 208px;
+}
+.profile-container img,
+.cont {
+    flex: 1;
+}
+
+/* Meida */
+@media screen and (max-width:  480px) and (min-width: 325px) {
+    body {
+        background-color: red;
+    }
+    p {
+        font-size: 18px;
+        padding: 13px;
+    }
+    #navbar {
+        flex-direction: column;
+    }
+    .dropdown-menu {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .container-person {
+        flex-direction: column;
+        gap: 200px;
+        padding: 34px;
+        margin-right: 10px;
+    }
+    img {
+        flex-direction: column;  
+    }
+}
+@media screen and (max-width: 480px) {
+    .dropdown-container {
+        flex-direction: column;
+    }
 }
