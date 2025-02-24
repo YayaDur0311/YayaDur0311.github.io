@@ -1,116 +1,113 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: poppins;
     box-sizing: border-box;
 }
 body {
-    background: #c4d5f6;
-    color: white;
+    margin: 0px;
+    font-family: sans-serif;
 }
 /* homescreen */
-header {
-    background-color: #fff3bd;
-    display: flex;
-    justify-content:  flex-end;
-    text-align: center;
-    padding: 30px 10%;
-}
-h2 {
-    text-align: center;
-    font-size: 38px;
-    color: #e78f14;
-    margin-right: auto;
-}
-.container2 {
-    cursor: pointer;
-}
-.container2 li {
-    list-style: none;
-    display: inline-block;
-    padding: 0px 20px;
-}
-
-.container2 li a {
-    transition: all 0.3s ease 0s;
-    display: block;
-    color: rgb(88, 6, 36);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-.container2 li a:hover {
-    color: #ff5c8a;
-    list-style-type: none;
-    margin: 0;
-    overflow: hidden;
-    border-radius: 46px;
-}
-li a:hover {
-    background-color: #d2cb387f;
-}
-
-.wrapper {
-    padding: 10px 10%;
-}
-#card-area {
-    padding: 50px 0;
-}
-.box-area {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
-}
-/* Cards doggy */
-.box {
-    border-radius: 10px;
-    position: relative;
-    overflow: hidden;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
-}
-.box img {
-    width: 100%;
-    border-radius: 10px;
-    display: block;
-    transition: transform 0.3s;
-}
-
-.overlay {
-    height: 0;
-    width: 100%;
-    background: linear-gradient(transparent,#1c1c1c 58%);
-    border-radius: 10px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    overflow: hidden;
+#navbar {
+    background-color: #f4a261;
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0 40px;
-    text-align: center;
-    font-size: 15px;
-    transition: height 0.4s;
 }
-.box:hover .overlay {
-    height: 100%;
-}
-.overlay h3 {
-    font-weight: 500;
-    margin: 5px;
-    font-family: bebas neue;
-    font-size: 30px;
-    letter-spacing: 2px;
-}
-.overlay a {
-    margin-top: 10px;
-    color: rgb(98, 0, 255);
+#navbar a {
+    display: inline-block;
     text-decoration: none;
-    font-size: 14px;
-    background: #fff;
-    border-radius: 50px;
-    text-align: center;
-    padding: 5px 15px;
+    color: white;
+    padding: 24px;
+}
+#navbar a:hover {
+    background: linear-gradient(to top, #be775e, #f4a261);
+}
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 32px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+/* dropdown style */
+.dropdown-container {
+    position: relative;
+}
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    width: 200px;
+    background-color: #be775e;
+    transform: translateY(-16px);
+    transition: 
+    opacity 0.5s,
+    visibility  0.5s,
+    transform 1s
+    ;
+}
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+#navbar .dropdown-menu a:hover {
+    color: #ffbe0b;
+    background-color: transparent;
+}
+.dropdown-container i {
+    transition: transform 0.75s;
+}
+.dropdown-container:hover i {
+    transform: rotate(180deg);
+}
+/* Cards doggy */
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.card {
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+}
+.card a {
+    transition: 
+    background-color 0.5s,
+    box-shadow 0.5s,
+    transform 0.5s;
+}
+.card:hover a {
+    background-color: #690bf7;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+    color: white;
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card-content {
+    padding: 16px;
+}
+.card-content h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.card-content p {
+    color: #000000;
+    font-size: 15px;
+    line-height: 1.3;
+}
+.card .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    color: #fff;
 }
