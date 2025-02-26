@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Restaurant Site Final</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://use.typekit.net/wfu0xyq.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-----Menu Start------->
+    <div class="menu">
+            <div class="heading">
+                <h2>Fresh taste and great price</h2>
+                <span>&mdash;MENU&mdash;</span>
+            </div>
+        </div>
+        <!----FEATURED FOOD----->
+        <div class="Featured">
+            <div class="card3">
+                <img src="images/Banana-Milkshake.png">
+                <div class="card-details3">
+                    <h3>Banana-Milkshake</h3>
+                    <p>
+                        Grilled fish is a delicious and healthy 
+                        seafood option where fresh fish fillets
+                        are cooked on a grill or barbecue. The 
+                        grilling procedure keeps the fish wet 
+                        and delicate on the inside while adding
+                        a smokey taste and a slightly charred surface.
+                        If your a fish lover then this is the right meal 
+                        for you.
+                    </p>
+                <div id="money3" class="money3"><p>$11.00</p></div>
+                <div class="card-content3" id="card3">
+                <a href="#">ORDER NOW!</a>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="#"><i class="fa-solid fa-heart"></i></a>
+               </div>
+                </div>
+            </div>
+        </div>
+        <!---FOOD CARdS-->
+        <div class="cards-container">
+            <div class="card1">
+                <img src="images/UNSPLASH-GRILLED-FISH.png">
+                <div class="card-details">
+                    <h3>Grilled Fish</h3>
+                    <p>
+                        Grilled fish is a delicious and healthy 
+                        seafood option where fresh fish fillets
+                        are cooked on a grill or barbecue.The 
+                        grilling procedure keeps the fish wet 
+                        and delicate on the inside while adding
+                        a smokey taste and a slightly charred surface.
+                        If your a fish lover then this is the right meal 
+                        for you.
+                    </p>
+                <div id="money" class="money"><p>$11.00</p></div>
+               </div>
+                <div class="card-content" id="card">
+                    <a href="#">Add to Order</a>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-heart"></i>
+                </div>
+            </div>
+            <div class="card1">
+                <img src="images/Unsplash-breaded-chicken-tender.jpg">
+                <div class="card-details">
+                    <h3>Breaded Chicken Tenders</h3>
+                    <p>
+                        Both children and adults adore the 
+                        well-liked dish of breaded chicken 
+                        tenders. Coated in a seasoned breading 
+                        mix, these tender chicken strips are 
+                        deep-fried until they are perfectly 
+                        crispy and golden brown. While the chicken 
+                        within stays moist and soft, the breading 
+                        provides a delightful crunch.
+                <div id="money" class="money"><p>$10.22</p></div>
+                </div>
+                <div class="card-content" id="card">
+                <a href="#">Add to Order</a>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-heart"></i>
+                </div>
+            </div>
+            <div class="card1">
+                <img src="images/Unsplash-Shrimp.jpg">
+                <div class="card-details">
+                    <h3>Shrimpena</h3>
+                    <p>
+                       Shrimpena, one of the most tastiest seafood 
+                       choice, grilled shrimp are distinguished by 
+                       their delicate, light, and slightly scorched 
+                       surface.They are sometimes marinated in a range 
+                       of seasonings, including lemon, garlic, herbs, 
+                        and spices, which give them a rich flavor.
+                    </p>
+                <div id="money" class="money"><p>$12.21</p></div>
+                </div>
+                <div class="card-content" id="card">
+                    <a href="#">Add to Order</a>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-heart"></i>
+                </div>
+                <br>
+                
+            </div>
+        </div>
+        <!-----Card 2-->
+        <div class="cards-container2">
+            <div class="card2">
+                <img src="images/Unsplash-Smoth-Salad.jpg">
+                <div class="card-details2">
+                    <h3>Smoth Salad</h3>
+                    <p>
+                        Juicy tomatoes, crunchy cucumbers, sharp 
+                        red onions, sweet corn, and perfectly 
+                        grilled fish over a bed of crisp lettuce
+                         make up this energetic and healthy salad. 
+                        The creamy texture from the boiled eggs 
+                        makes this salad a tasty and well-balanced
+                        dinner. Savor a taste burst with each bite!
+                        </p>
+                    <div id="money" class="money"><p>$23.99</p></div>
+                </div>
+                <div class="card-content2" id="card2">
+                <a href="#">Add to Order</a>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-heart"></i>
+            </div>
+            <br>
+        </div>
+        <div class="card2">
+            <img src="images/Unsplash-TreehouseTales-Classic.jpg">
+            <div class="card-details2">
+                <h3>Tree House Tales Classic</h3>
+                <p>
+                    This colorful salad, which mixes smooth 
+                    avocado, crisp carrots, sweet peas, and juicy 
+                    tomatoes, is bursting with flavors and hues. Crisp 
+                    lettuce, mild onions, and delicate cabbage, a tangy
+                    lemon slices offer a zesty punch. This salad
+                    is a lovely and refreshing dish because of the 
+                    unusual twist that the exotic dragon fruit adds.
+                </p>
+                <br>
+                <div id="money" class="money"><p>$16.00</p></div>
+            </div>
+            <br>
+            <div class="card-content2" id="card2">
+            <a href="#">Add to Order</a>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-heart"></i>
+        </div>
+    </div>
+    <div class="card2">
+        <img src="images/Unsplash-Burger2.jpg">
+        <div class="card-details2">
+            <h3>Chump Burger</h3>
+            <p>
+                A delicous burger for all of those meat lovers at there.
+                This classic meaty burger that is covered in with the 
+                richest himalayas sauce, lettuce, sweet tomato's, and 
+                onions that were from Scotland.. Enjoy a symphony of 
+                textures and  tastes in every bite! Lorem ipsum dolor 
+                sit amet consectetur, adipisicing elit. Necessitatibus iure 
+            </p>
+            <br>
+            <br>
+            <div id="money" class="money"><p>$16.00</p></div>
+        </div>
+        <div class="card-content2" id="card2">
+        <a href="#">Add to Order</a>
+        <i class="fa-solid fa-cart-shopping"></i>
+        <i class="fa-solid fa-heart"></i>
+    </div>
+    </div>
+    <br>
+    </div>
+    <!----CArd 3------>
+         <div class="cards-container">
+            <div class="card1">
+                <img src="images/Pumpkin-Pie.png">
+                <div class="card-details">
+                    <h3>Pumpkin Pie</h3>
+                    <p>
+                        A smooth mixture of pumpkin, cloves, cinnamon,
+                        and nutmeg is wrapped in a golden crust. 
+                        relaxing spices and earthy sweetness dance 
+                        together in every bite, conjuring up pleasant, 
+                        full-time memories. This pie, which is topped 
+                        with a dollop of whipped cream, invites everyone 
+                        to indulge and experience the essence of 
+                        Thanksgiving, warmth, and home.
+                    </p>
+                <div id="money" class="money"><p>$20.00</p></div>
+               </div>
+                <div class="card-content" id="card">
+                    <a href="#">Add to Order</a>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-heart"></i>
+                </div>
+            </div>
+            <div class="card1">
+                <img src="images/Pasta.png">
+                <div class="card-details">
+                    <h3>Classic Spaghetti</h3>
+                    <p>
+                        This  beloved Italian dish is made with al dente
+                        pasta and a flavorful, thick tomato sauce, which
+                        has basil, and garlic that was blended in with the
+                        noodles. It provides a satisfying, substantial 
+                        dinner and is sometimes served with grated Parmesan 
+                        cheese. This classic conjures up sentiments of
+                        custom, and straightforward culinary pleasure.
+                    </p>
+                <div id="money" class="money"><p>$23.21</p></div>
+               </div>
+                <div class="card-content" id="card">
+                    <a href="#">Add to Order</a>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-heart"></i>
+                </div>
+            </div>
+            <div class="card1">
+                <img src="images/Beef-Broth.png">
+                <div class="card-details">
+                    <h3>Beef Broth</h3>
+                    <p>
+                        Beef broth, a comforting elixir, simmers rich beef 
+                        bones with onions, carrots, and celery. The slow 
+                        cooking extracts robust flavors, creating a savory, 
+                        nutrient-packed liquid. Each sip delivers warmth 
+                        and depth, perfect as a base for soups or enjoyed 
+                        on its own. This timeless classic embodies the 
+                        essence of homemade comfort and nourishment.
+                    </p>
+                <div id="money" class="money"><p>$23.19</p></div>
+               </div>
+                <div class="card-content" id="card">
+                    <a href="#">Add to Order</a>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-heart"></i>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br>
+        <!----FOOTER-------->
+        <div id="footer">
+            <h5>Contacts</h5>
+            <img src="images/Logo.png">
+            <div id="footer-navbar">
+                <a href="#">Information</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Services</a>
+                <a id="here" href="#">Contact Information</a>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>

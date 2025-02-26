@@ -31,7 +31,6 @@ h1 h2 h3 {
     color: #EDE82D;
     padding: 24px;
 }
-
 #navbar #logo {
     margin-right: auto;
     font-weight: bold;
@@ -155,3 +154,246 @@ h5 {
     text-align: center;
     font-size: 25px;
 }
+/* Menu */
+
+.heading {
+    background-color: #42a98b;
+    color: white;
+    margin-bottom: 30px;
+    padding: 30px 0;
+    grid-column: 1/-1;
+    text-align: center;
+}
+.heading>h2 {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 9px;
+    margin-bottom: 10px;
+}
+.heading>span {
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-size: 21px;
+}
+/* container 1 */
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.card1 {
+    width: 329px;
+    border-radius: 3px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+}
+.card1 img {
+    width: 100%;
+    height: auto;
+}
+.card-details {
+    padding: 16px;
+}
+.card-details h3 {
+    font-size: 28px;
+    margin-bottom:5px;
+}
+.card-details p {
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+#card a {
+    background-color: #4B6671;
+    transition: 
+    box-shadow 0.5s,
+    transform 0.5s;
+}
+
+
+a {
+    font-family: "Palatino Linotype", serif; 
+}
+
+.card-content a {
+    display: inline-block;
+    padding: 6px 14px;
+    background-color: #68BC45;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-top: 16px;
+    color: #fff;
+}
+#card a {
+    transition: 
+    background-color 0.5s,
+    box-shadow 0.5s,
+    transform 0.5s;
+}
+#card:hover a {
+    background-color: #85C33F;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+/* Container 2 */
+.cards-container2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.card2 {
+    width: 329px;
+    border-radius: 3px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+}
+.card2 img {
+    width: 100%;
+    height: auto;
+}
+.card-details2 {
+    padding: 16px;
+}
+.card-details2 h3 {
+    font-size: 28px;
+    margin-bottom:5px;
+}
+.card-details2 p {
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.card-content2 a {
+    background-color: #4B6671;
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+    margin-top: 16px;
+    display: inline-block;
+    padding: 6px 14px;
+}
+#card2 a {
+    transition: 
+    background-color 0.5s,
+    box-shadow 0.5s,
+    transform 0.5s;
+}
+#card2:hover a {
+    background-color: #85C33F;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+a {
+    font-family: "Palatino Linotype", serif;
+    align-items: baseline;
+}
+#money p {
+    font-weight: bolder;
+}
+.money p {
+    font-size: 101%;
+}
+/* Container 3 */
+
+.card3 {
+    width: 329px;
+    border-radius: 3px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+}
+.card3 img {
+    width: 100%;
+    height: auto;
+}
+.card-details3 {
+    padding: 16px;
+}
+.card-details3 h3 {
+    font-size: 28px;
+    margin-bottom:5px;
+}
+.card-details3 p {
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+#money1 p {
+    font-weight: bolder;
+}
+.money1 p {
+    font-size: 101%;
+}
+.card-content1 a {
+    background-color: #4B6671;
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+    margin-top: 16px;
+    display: inline-block;
+    padding: 6px 14px;
+}
+.Featured {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card3 img {
+    width: 100%;
+    height: auto;
+}
+.card-details3 {
+    padding: 16px;
+}
+.card-details3 h3 {
+    font-size: 28px;
+    margin-bottom:5px;
+}
+.card-details3 p {
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+#card3 a {
+    background-color: #4B6671;
+    transition: 
+    box-shadow 0.5s,
+    transform 0.5s;
+}
+.card-content3 a {
+    display: inline-block;
+    padding: 6px 14px;
+    background-color: #68BC45;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-top: 16px;
+    color: #fff;
+}
+#card3 a {
+    transition: 
+    background-color 0.5s,
+    box-shadow 0.5s,
+    transform 0.5s;
+}
+#card3:hover a {
+    background-color: #85C33F;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+
+
+
+
+
+
