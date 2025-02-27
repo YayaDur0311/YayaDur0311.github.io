@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: "Oswald", serif;
+    font-style: normal;
+    background-color: #fefae0;
+}
+/* Tops */
+.text1 {
+    background-color: #fcbf49;
+    text-align: center;
+    font-family: "Oswald", serif;
+    font-size: 21px;
+    font-weight: 364;
+    font-style: normal;
+}
+h5 {
+    font-optical-sizing: auto;
+    font-weight: 463;
+    font-style: normal;
+    font-size: 34px;
+}
+.join {
+    text-align: center;
+    font-weight: 308;
+    font-style: normal;
+}
+#combined-1 {
+    background-color: coral;
+    text-align: center;
+}
+.questions1 {
+    text-align: center;
+}
+.questions1 a {
+    text-decoration: none;
+    color: black;
+}
+.questions2 {
+    text-align: center;
+    margin-top: 1%;
+}
+/* Middle */
+.parent-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+.number a {
+    color: black;
+}
+.number a:hover {
+    color: blue;
+}
+button {
+    background-color: aliceblue;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.7em 2em;
+    border-radius: 2px;
+    position: relative;
+    box-shadow: 0 px 10px rgba(0, 0, 0, 0.16);
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
+}
+button:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color: rgb(51, 202, 51);
+    z-index: -1;
+}
+
+button:hover:before, button:focus:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+}
+button:active {
+    transform: scale(0.9);
+}
+h3 {
+    font-size: 55px;
+}
+.box-1 {
+    display: inline-block;
+    font-size: 20px;
+}
+.box-2 {
+    display: inline-block;
+    font-size: 20px;
+}
+.info-4 {
+    text-align: center;
+}
+.team {
+    text-align: center;
+    font-optical-sizing: auto;
+    font-weight: 406;
+    font-style: normal;
+}
+/* Bottom */
+#lasty {
+    gap: 2px;
+
+}
+#lasty img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Media */
+@media screen and (max-width: 768px) {
+
+}

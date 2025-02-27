@@ -28,7 +28,7 @@ h1 h2 h3 {
 #navbar a {
     display: inline-block;
     text-decoration: none;
-    color: #EDE82D;
+    color: white;
     padding: 24px;
 }
 #navbar #logo {
@@ -47,7 +47,7 @@ h1 h2 h3 {
     opacity: 0;
     visibility: hidden;
     width: 200px;
-    background-color: #86625c;
+    background-color: #85C33F;
     transform: translateY(-16px);
     transition: 
     opacity 0.5s,
@@ -61,7 +61,7 @@ h1 h2 h3 {
     transform: translateY(0px);
 }
 #navbar .dropdown-menu a:hover {
-    color: rgb(255, 255, 255);
+    color: #EEE82E;
     background-color: transparent;
 }
 .dropdown-container i {
@@ -157,7 +157,7 @@ h5 {
 /* Menu */
 
 .heading {
-    background-color: #42a98b;
+    background-color: #86615C;
     color: white;
     margin-bottom: 30px;
     padding: 30px 0;
