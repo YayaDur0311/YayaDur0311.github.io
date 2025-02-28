@@ -50,10 +50,10 @@ h1 h2 h3 {
     background-color: #85C33F;
     transform: translateY(-16px);
     transition: 
-    opacity 0.5s,
-    visibility  0.5s,
-    transform 1s
-    ;
+        opacity 0.5s,
+        visibility  0.5s,
+        transform 1s
+        ;
 }
 .dropdown-container:hover .dropdown-menu {
     opacity: 1;
@@ -78,7 +78,8 @@ h1 h2 h3 {
     width: 20%;
     height: 30%;
 }
-.image-container, .soglan {
+.image-container , 
+.soglan {
     background-color: #D0ECFB;
     padding-top: 3px;
     padding-bottom: 10px;
@@ -188,7 +189,7 @@ h5 {
     border-radius: 3px;
     background-color: white;
     overflow: hidden;
-    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
     margin: 20px;
 }
 .card1 img {
@@ -200,7 +201,7 @@ h5 {
 }
 .card-details h3 {
     font-size: 28px;
-    margin-bottom:5px;
+    margin-bottom: 5px;
 }
 .card-details p {
     font-size: 14px;
@@ -210,11 +211,9 @@ h5 {
 #card a {
     background-color: #4B6671;
     transition: 
-    box-shadow 0.5s,
-    transform 0.5s;
+        box-shadow 0.5s,
+        transform 0.5s;
 }
-
-
 a {
     font-family: "Palatino Linotype", serif; 
 }
@@ -230,9 +229,9 @@ a {
 }
 #card a {
     transition: 
-    background-color 0.5s,
-    box-shadow 0.5s,
-    transform 0.5s;
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
 }
 #card:hover a {
     background-color: #85C33F;
@@ -251,7 +250,7 @@ a {
     border-radius: 3px;
     background-color: white;
     overflow: hidden;
-    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
     margin: 20px;
 }
 .card2 img {
@@ -263,7 +262,7 @@ a {
 }
 .card-details2 h3 {
     font-size: 28px;
-    margin-bottom:5px;
+    margin-bottom: 5px;
 }
 .card-details2 p {
     font-size: 14px;
@@ -281,9 +280,9 @@ a {
 }
 #card2 a {
     transition: 
-    background-color 0.5s,
-    box-shadow 0.5s,
-    transform 0.5s;
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
 }
 #card2:hover a {
     background-color: #85C33F;
@@ -307,7 +306,7 @@ a {
     border-radius: 3px;
     background-color: white;
     overflow: hidden;
-    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
     margin: 20px;
 }
 .card3 img {
@@ -319,7 +318,7 @@ a {
 }
 .card-details3 h3 {
     font-size: 28px;
-    margin-bottom:5px;
+    margin-bottom: 5px;
 }
 .card-details3 p {
     font-size: 14px;
@@ -357,7 +356,7 @@ a {
 }
 .card-details3 h3 {
     font-size: 28px;
-    margin-bottom:5px;
+    margin-bottom: 5px;
 }
 .card-details3 p {
     font-size: 14px;
@@ -367,8 +366,8 @@ a {
 #card3 a {
     background-color: #4B6671;
     transition: 
-    box-shadow 0.5s,
-    transform 0.5s;
+        box-shadow 0.5s,
+        transform 0.5s;
 }
 .card-content3 a {
     display: inline-block;
@@ -381,9 +380,9 @@ a {
 }
 #card3 a {
     transition: 
-    background-color 0.5s,
-    box-shadow 0.5s,
-    transform 0.5s;
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
 }
 #card3:hover a {
     background-color: #85C33F;
@@ -405,10 +404,10 @@ a {
     .about-text {
         font-size: 10px;
     }
-.btn {
-    padding: 8px 12px;
-    font-size: 14px;
-}
+    .btn {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 480px) {
