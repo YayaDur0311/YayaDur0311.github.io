@@ -407,7 +407,7 @@ a {
     .about-text {
         font-size: 13px;
     }
-    .btn {
+     .about-text .btn {
         margin-right: 10px;
         font-size: 15px;
     }
@@ -437,9 +437,8 @@ a {
         font-size: 9px;
         flex-direction: row;
         margin-right: 10%;
-    }
-    .about-text .btn {
-        font-size: 12px;
+        left: auto;
+        padding: 34px;
     }
     .btn {
         margin-right: 14px; 
