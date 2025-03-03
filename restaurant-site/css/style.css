@@ -147,7 +147,7 @@ img {
 }
 #footer a {
     text-decoration: none;
-    color: #EEE82E;
+    color: #ffffff;
     font-family: "Palatino Linotype", serif;
     font-weight: bold;
 }
@@ -396,13 +396,13 @@ a {
     }
     #navbar a {
         font-size: 17px;
-        
     }
     .dropdown-container {
         flex-direction: column;
     }
     p {
         font-size: 15px;
+        flex-direction: column;
     }
     .about-text {
         font-size: 13px;
@@ -410,6 +410,7 @@ a {
      .about-text .btn {
         margin-right: 10px;
         font-size: 15px;
+         display: flex;
     }
     #footer-navbar {
         font-size: 18px;
@@ -425,6 +426,10 @@ a {
     .h1 {
         font-size: 24px;
     }
+    p {
+        display: flex;
+        font-size: 100%;
+    }
     .content {
         text-align: center;
     }
@@ -434,11 +439,10 @@ a {
         margin-right: 10%;
     }
     .about-text p {
-        font-size: 9px;
-        flex-direction: row;
-        margin-right: 10%;
-        left: auto;
-        padding: 34px;
+        text-align: left;
+        float: right;
+        padding:4px;
+        flex-direction: column;
     }
     .btn {
         margin-right: 14px; 
